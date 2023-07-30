@@ -1,0 +1,21 @@
+.navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ background-color: black;
+ color: white;
+ height:50px ;
+ width: 70%;
+ margin: auto;
+ padding: 20px;
+ clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+}
+.text{
+    margin :10px
+}
+@media (width<=900px){
+    .navbar{
+        font-size: 10px;
+    }
+}
